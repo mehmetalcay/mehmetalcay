@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: url(/backgrounds/fantastic-world.jpg);
+  background-image: url(./backgrounds/fantastic-world.jpg);
   background-position: top;
 }
 
@@ -11,7 +11,7 @@ header {
   background-color: #4CAF50;
   padding: 1em;
   text-align: center;
-  background-image: url(/backgrounds/lake-view.jpg);
+  background-image: url(./backgrounds/lake-view.jpg);
   background-position: top;
   background-size: cover;
 }
@@ -34,19 +34,19 @@ section h2, p {
 }
 
 #id-lorpoc {
-  background-image: url(/backgrounds/lorpoc-bg.jpeg);
+  background-image: url(./backgrounds/lorpoc-bg.jpeg);
   background-position: center;
   background-size: cover;
 }
 
 #id-mahkum {
-  background-image: url(/backgrounds/hogan-troyd.jpeg);
+  background-image: url(./backgrounds/hogan-troyd.jpeg);
   background-position: center;
   background-size: cover;
 }
 
 #id-music {
-  background-image: url(/backgrounds/musics-bg.jpeg);
+  background-image: url(./backgrounds/musics-bg.jpeg);
   background-position: center;
   background-size: cover;
 }
