@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(/backgrounds/fantastic-world.jpg);
+  background-position: top;
+}
+
+header {
+  background-color: #4CAF50;
+  padding: 1em;
+  text-align: center;
+  background-image: url(/backgrounds/lake-view.jpg);
+  background-position: top;
+  background-size: cover;
+}
+
+header .logo img {
+  max-width: 70px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section h2, p {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 30px;
+}
+
+#id-lorpoc {
+  background-image: url(/backgrounds/lorpoc-bg.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+#id-mahkum {
+  background-image: url(/backgrounds/hogan-troyd.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+#id-music {
+  background-image: url(/backgrounds/musics-bg.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 2em;
+  margin: 1em;
+  text-align: center;
+  width: 30%;
+  height: 400px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+@media (width < 750px) {
+ main {
+  flex-direction: column;
+ }
+
+ .card {
+  width: 75%;
+ }
+}
+
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 6px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer p {
+  font-size: 10px;
+}
